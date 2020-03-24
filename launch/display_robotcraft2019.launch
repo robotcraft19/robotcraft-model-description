@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+      <param name="robot_description" textfile="$(find amazebot-model-description)/urdf/robotcraft2019.urdf" />
+      
+      <node name="rviz" pkg="rviz" type="rviz" args="-d $(find amazebot-model-description)/robotcraft2019_robot.rviz" />
+      
+      <node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher">
+            <remap from="joint_state" to="joint_state"/>
+            <param name="publish_frequency" type="double" value="15.0"/>
+    </node>
+</launch>
