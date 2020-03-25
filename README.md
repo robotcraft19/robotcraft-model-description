@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/robotcraft19/amazebot-model-description>
-    <img src="res/images/logo_amazebot.png" alt="Logo" width="100" height="100">
+    <img src="https://raw.githubusercontent.com/robotcraft19/amazebot-model-description/master/res/logo_amazebot.png">   
   </a>
 
   <h3 align="center">Amazebot Description Package</h3>
