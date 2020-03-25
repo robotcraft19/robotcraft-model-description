@@ -1,6 +1,7 @@
 devel/
 logs/
 build/
+.vscode/*
 bin/
 lib/
 msg_gen/

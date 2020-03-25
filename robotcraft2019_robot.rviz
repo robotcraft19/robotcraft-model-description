@@ -5,6 +5,9 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /Status1
+        - /RobotModel1
+        - /RobotModel1/Status1
         - /TF1/Frames1
       Splitter Ratio: 0.5
     Tree Height: 515
@@ -124,8 +127,6 @@ Visualization Manager:
           Value: true
         left_ir:
           Value: true
-        odom:
-          Value: true
         right_ir:
           Value: true
       Marker Scale: 0.11999999731779099
@@ -134,22 +135,7 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        odom:
-          base_link:
-            acrylic_base:
-              {}
-            arduino:
-              {}
-            battery:
-              {}
-            bottom_base:
-              {}
-            front_ir:
-              {}
-            left_ir:
-              {}
-            right_ir:
-              {}
+        {}
       Update Interval: 0
       Value: true
     - Alpha: 0.5
@@ -244,7 +230,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 5.285134315490723
+      Distance: 0.40537914633750916
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -259,10 +245,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.5697963237762451
+      Pitch: 0.06479687988758087
       Target Frame: <Fixed Frame>
       Value: XYOrbit (rviz)
-      Yaw: 5.558586597442627
+      Yaw: 1.7903990745544434
     Saved: ~
 Window Geometry:
   Displays:
