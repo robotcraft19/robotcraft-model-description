@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>amazebot-model-description</name>
+  <name>robotcraft-model-description</name>
   <version>0.0.0</version>
-  <description>amazebot-model-description provides a complete 3D model of the Robot of RobotCraft 2019 for simulation and visualization</description>
+  <description>robotcraft-model-description provides a complete 3D model of the Robot of RobotCraft 2019 for simulation and visualization</description>
   <maintainer email="welcome@ingeniarius.pt">Ingeniarius</maintainer>  
   <license>MIT</license>
   <author email="welcome@ingeniarius.pt">Ingeniarius</author>  

@@ -28,7 +28,7 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0.03 -0.005 -0.09"/> 
         <geometry>
-            <mesh filename="package://amazebot-model-description/mesh/Black.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="package://robotcraft-model-description/mesh/Black.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="black"/>
     </visual>
@@ -39,7 +39,7 @@
 <link name="bottom_base">
     <visual>
         <geometry>
-            <mesh filename="package://amazebot-model-description/mesh/White.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="package://robotcraft-model-description/mesh/White.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <origin rpy="0 0 3.14159265359" xyz="0 -0.005 -0.11"/> 
         <material name="white"/>
@@ -50,7 +50,7 @@
 <link name="acrylic_base">
     <visual>
         <geometry>
-            <mesh filename="package://amazebot-model-description/mesh/Transparent.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="package://robotcraft-model-description/mesh/Transparent.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <origin rpy="0 0 3.14159265359" xyz="0 -0.005 -0.145"/>
         <material name="transparent"/>
@@ -61,7 +61,7 @@
 <link name="arduino">
     <visual>
         <geometry>
-            <mesh filename="package://amazebot-model-description/mesh/Green.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="package://robotcraft-model-description/mesh/Green.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <origin rpy="0 0 3.14159265359" xyz="0 -0.005 -0.17"/>
         <material name="green"/>
@@ -72,7 +72,7 @@
 <link name="battery">
     <visual>
         <geometry>
-            <mesh filename="package://amazebot-model-description/mesh/Purple.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="package://robotcraft-model-description/mesh/Purple.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <origin rpy="0 0 3.14159265359" xyz="0.015 -0.005 -0.135"/>
         <material name="purple"/>
